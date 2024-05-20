@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    border: 1px solid black;
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.footer{
+    background-color: rgb(255, 102, 102);
+    color: white;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu{
+    text-align: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 66, 66);
+}
+.menu ul li a:hover{
+    color: blue;
+}
+.main-content{
+    margin: 1% 0;
+    background-color: rgb(205, 205, 205);
+    padding: 1% 0;
+}
+.col-4{
+    width: 10%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
